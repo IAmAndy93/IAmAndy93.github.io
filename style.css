@@ -1,0 +1,81 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("images/topography.png");
+    background-attachment: fixed;
+    background-size: 40%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+box{
+    background-color: #333333;
+    position:absolute;
+    top:0px;
+    left: 0px;
+    width:100%;
+    height: 50px;
+}
+
+.image{
+    position:absolute;
+    top:10px;
+    left:0;
+    padding:0px 10%;
+}
+
+li {
+    /* text-decoration-line: underline; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 30px;
+    display:inline;
+}
+
+a{
+    color: #ff0099; 
+}
+
+#navbar{
+    position:absolute;
+    right: 0;
+    top: 10px;
+    padding:8px 10% 8px 30%;
+}
+
+
+
+
+main{    
+    padding: 10% 10% 3%;
+    
+} 
+
+main h1{
+    font-family: 'Noto Serif Balinese', serif;
+}
+
+main h2{
+    font-family: 'Noto Serif Balinese', serif;
+    color:#ff0099;
+}
+.separator{
+    text-align: center;
+}
+
+main h3{
+    font-family: 'Noto Serif Balinese', serif;
+    text-align: center;
+}
+
+main h4{
+    font-family: 'Noto Serif Balinese', serif;
+    padding: 0px 0px;
+    margin: 50px 0px 0px;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+}
